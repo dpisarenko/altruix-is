@@ -1,0 +1,14 @@
+.gradle/
+build/
+/bin/
+*.log
+protocol.md
+protocol/
+log/
+nohup.out
+.idea/
+classes/
+data/
+gradle/
+gradlew
+gradlew.bat
