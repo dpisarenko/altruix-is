@@ -37,8 +37,8 @@ open class CapsuleCrmSubsystem(
 ) : ICapsuleCrmSubsystem {
     companion object {
         val WwwPrefix = "www."
-        val ApiToken = "4jZjBseBK+URsqqSVuinylUs7JkLrr0NfD+yeW8TIi/o4Ydxtsc3VkoIMrxUNHav"
-        val AgentFieldId = 402850
+        val ApiToken = "CENSORED"
+        val AgentFieldId = CENSORED
         val AddNoteUrl = "https://api.capsulecrm.com/api/v2/entries"
         val CreateCompanyUrl = "https://api.capsulecrm.com/api/v2/parties"
         val CompanyIdBlankMessage = "Company ID is blank"
