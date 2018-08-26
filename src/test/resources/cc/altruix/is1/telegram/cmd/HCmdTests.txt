@@ -1,0 +1,28 @@
+*Altruix IS 1.42*
+
+Following commands are supported:
+
+/bb: Enter *bank balance*
+/bp1su: Show all external users, who can work in business processes 1 and 2 (collecting contact data and contacting SEO companies, obsolete)
+/bp1uact: BP 1 and 2: Activate a new user (who previously introduced himself at Knackal, obsolete)
+/bp1udact: Deactivate user (obsolete)
+/caf: Café visits
+/d: Enter *distraction* incident data
+/da: Distraction analysis
+/edf: *Editing finished* event
+/eds: *Editing standard statistics* (use this command, when a step of the editing standard was useful)
+/es: *Editing started* event
+/etb: Brushed the teeth in the evening
+/h: Show this help text
+/mov: Movie watchings
+/mx: Marketing experiment conducted
+/r: Creates and sends a report
+/radar: Radar chart
+/rd: Reading stats
+/ssp: Short story *published* event
+/ssr: Short story read
+/sw: Strunk and White stats
+/voc: Vocabulary stats
+/vos: Vocabulary training session
+/wct: Enter *word count* data (for calculating the number of words written per day)
+/wex: Writing exercise (skill improvement operation)

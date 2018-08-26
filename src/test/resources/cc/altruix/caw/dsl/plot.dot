@@ -1,0 +1,1754 @@
+digraph G {
+	label="Siegfried and Valkyrie plot\nDedicated to N-1"
+#graph [ dpi = 150 ]; 
+
+#	subgraph cluster_characters {
+#		label="Characters"
+
+		c_siegfried [label="Siegfried", shape="tripleoctagon"]
+		c_valkyrie [label="Valkyrie", shape="tripleoctagon"]
+		c_egregorius [label="Egregorius", shape="tripleoctagon"]
+		cg_cleanlandsSoldiers1 [label="Cleanlands' soldiers (1)", shape="tripleoctagon"]
+		cg_cleanlandsSoldiers2 [label="Cleanlands' soldiers (2)", shape="tripleoctagon"]
+		cg_cleanlandsSoldiers3 [label="Cleanlands' soldiers (3)", shape="tripleoctagon"]
+		cg_cleanlandsSoldiers4 [label="Cleanlands' soldiers (4)", shape="tripleoctagon"]
+		cg_cleanlandsSoldiers5 [label="Cleanlands' soldiers (5)", shape="tripleoctagon"]
+		cg_cleanlandsSoldiers6 [label="Cleanlands' soldiers (6)", shape="tripleoctagon"]
+		c_pilot [label="Pilot", shape="tripleoctagon"]
+		c_jetDragon [label="Jet dragon", shape="tripleoctagon"]
+		c_magicalCreature [label="Magical creature", shape="tripleoctagon"]
+		c_magicalCreature_note [label="See Seth and Monroe books", shape="note"]
+		c_magicalCreature_note -> c_magicalCreature
+		c_gernot [label="Gernot", shape="tripleoctagon"]
+		c_deathman [label="Deathman", shape="tripleoctagon"]
+		c_egregoriusRival [label="Egregorius' rival", shape="tripleoctagon"]
+		cg_nibelungCrowd [label="Nibelung crowd", shape="tripleoctagon"]
+		c_michaelTheMonkey [label="Michael the Monkey", shape="tripleoctagon"]
+		c_borisTheBadger [label="Boris the Badger", shape="tripleoctagon"]
+		c_alexTheProphet [label="Alex the Prophet", shape="tripleoctagon"]
+		c_jester1 [label="Jester 1", shape="tripleoctagon"]
+		c_jester2 [label="Jester 2", shape="tripleoctagon"]
+		c_jester3 [label="Jester 3", shape="tripleoctagon"]
+		cg_nibelungPrisoners [label="Captivated Nibelungs", shape="tripleoctagon"]
+		cg_cleanlandsPrisoners [label="Captivated Cleanlanders", shape="tripleoctagon"]
+		c_mageScientist [label="Scientist (mage)", shape="tripleoctagon"]
+		cg_councilMembers [label="Mage council members", shape="tripleoctagon"]
+
+		c_nibelungElder1 [label="Nibelung Elder #1", shape="tripleoctagon"]
+		c_nibelungElder2 [label="Nibelung Elder #1", shape="tripleoctagon"]
+		cg_nibelungLeaders [label="Nibelung leaders", shape="tripleoctagon"]
+		cg_nibelungCorruptionists [label="Nibelung corruptionists", shape="tripleoctagon"]
+		c_spy [label="Cleanlands spy", shape="tripleoctagon"]
+		cg_nibelungCourtiers [label="Nibelung courtiers", shape="tripleoctagon"]
+		cg_valkyriesRelatives [label="Valkyrie's relatives", shape="tripleoctagon"]
+		с_kingOfCleanlands [label="King of Cleanlands", shape="tripleoctagon"]
+		c_mageSurgeon [label="Brain surgeon (mage)", shape="tripleoctagon"]
+		cg_nibelungMilitary [label="Nibelung soldiers\nand officers", shape="tripleoctagon"]
+		cg_miners [label="Nibelung miners", shape="tripleoctagon"]
+		c_chiefOfIntelligence [label="Chief of intelligence", shape="tripleoctagon"]
+		c_nibelungResistanceLeader1 [label="Nibelung resistance leader #1", shape="tripleoctagon"]
+		c_nibelungResistanceLeader1_note [label="Too egocentric\n(Navalny, Zhirinovski etc.)", shape="note"]
+		c_nibelungResistanceLeader1_note -> c_nibelungResistanceLeader1
+		c_nibelungResistanceLeader2 [label="Nibelung resistance leader #2", shape="tripleoctagon"]
+		c_nibelungResistanceLeader2_note [label="With outdated ideologies\n(Communists)", shape="note"]
+		c_nibelungResistanceLeader2_note -> c_nibelungResistanceLeader2
+		c_nibelungResistanceLeader3 [label="Nibelung resistance leader #3", shape="tripleoctagon"]
+		c_nibelungResistanceLeader3_note [label="Psedo-opposition cotrolled by\nthe central power/king (Mironov)", shape="note"]
+		c_nibelungResistanceLeader3_note -> c_nibelungResistanceLeader3
+		cg_intelligenceStaff [label="Nibelungo-Cleanlandsian\nintelligence staff", shape="note"]
+		c_BorisDoctor [label="Boris' doctor in the mental institution", shape="tripleoctagon"]
+#	}
+
+#	subgraph cluster_places {
+#		label="Places"
+
+#		subgraph cluster_nibelungia {
+#			label="Nibelungia"
+			p_academy [label="Castalian Academy of Fine Arts", shape="house"]
+			p_centralSquare [label="Central square of capitol city of Nibelungia", shape="house"]
+			p_valkyriesHomeCastle [label="Valkyrie's home castle", shape="house"]
+			p_mines [label="Mines", shape="house"]
+			p_forgottenCastle [label="Forgotten castle", shape="house"]
+			p_nibelungianGovtBuilding [label="Nibelungian government building", shape="house"]
+			p_simulacrumControlCenter [label="Simulacrum control center", shape="house"]
+			p_corruptionistsMansion [label="Corruptionists' mansion", shape="house"]
+			p_corruptionistsMansion_note [label="What can this be?\nКрасный Октябрь?\nДом на набережной?", shape="note"]
+			p_corruptionistsMansion -> p_corruptionistsMansion_note
+			p_spiritualPlaceOfNibelungs [label="Spiritual place of the Nibelungs", shape="house"]
+			p_nibelungKingsResidence [label="Nibelung King's residence", shape="house"]
+			p_borisDen [label="Boris's den", shape="house"]
+			p_mentalInstitution [label="Mental institution", shape="house"]
+			p_residenceOfNibelungResistanceLeader1  [label="Residence of Nibelung resistance leader #1", shape="house"]
+			p_residenceOfNibelungResistanceLeader2  [label="Residence of Nibelung resistance leader #2", shape="house"]
+			p_residenceOfNibelungResistanceLeader3  [label="Residence of Nibelung resistance leader #3", shape="house"]
+			p_spyMinistry [label="Spy ministry", shape="house"]
+
+#		}
+
+#		subgraph cluster_landOfOutcasts {
+#			label="Land of the outcasts"
+			p_outcasts [label="Land of the outcasts\n101st kilometer", shape="house"]
+			p_outcasts_tavern [label="Tavern", shape="house"]
+			p_outcasts_dragon_training_ground [label="Dragon training ground", shape="house"]
+			p_spaceBetweenForgottenCastleAndFlyingIsland [label="Space between\nforgotten castle and\nflyingIsland", shape="house"]
+#		}
+
+# Mages' places (start)
+			p_magesBunker [label="Mages' bunker\nCheyenne mountain", shape="house"]
+# Mages' places (end)
+
+		p_border [label="Border between Nibelungia and Cleanlands", shape="house"]
+#		subgraph cluster_cleanlands {
+#			label="CleanLands"
+			p_cleanlandsCapital [label="Capital city of CleanLands", shape="house"]
+#		}
+		p_flying_island [label="Flying island", shape="house"]
+#	}
+
+#	subgraph cluster_g1 {
+#		label="Siegfried's story arc"
+
+		siegfried_sa1 [label="Love to Valkyrie", shape="box"]
+		siegfried_sa1_showProblem [label="Show the problem", shape="box"]
+		siegfried_sa1_realize [label="S. realizes there's a problem", shape="box"]
+		siegfried_sa1_showCatalyst [label="Show catalyst for change", shape="box"]
+		siegfried_sa1_showDevRes [label="Show dev. of res. to fac. change/success", shape="box"]
+		siegfried_sa1_showSuccessFailure [label="Show success/failure", shape="box"]
+
+		siegfried_sa1 -> siegfried_sa1_showProblem
+		siegfried_sa1 -> siegfried_sa1_realize
+		siegfried_sa1 -> siegfried_sa1_showCatalyst
+		siegfried_sa1 -> siegfried_sa1_showDevRes
+		siegfried_sa1 -> siegfried_sa1_showSuccessFailure
+
+
+		siegfried_sa2 [label="Liberate Nibelungia from the mages", shape="box"]
+		siegfried_sa2_showProblem [label="Show the problem", shape="box"]
+		siegfried_sa2_realize [label="S. realizes there's a problem", shape="box"]
+		siegfried_sa2_showCatalyst [label="Show catalyst for change", shape="box"]
+		siegfried_sa2_showDevRes [label="Show dev. of res. to fac. change/success", shape="box"]
+		siegfried_sa2_showSuccessFailure [label="Show success/failure", shape="box"]
+
+		siegfried_sa2 -> siegfried_sa2_showProblem
+		siegfried_sa2 -> siegfried_sa2_realize
+		siegfried_sa2 -> siegfried_sa2_showCatalyst
+		siegfried_sa2 -> siegfried_sa2_showDevRes
+		siegfried_sa2 -> siegfried_sa2_showSuccessFailure
+
+		siegfried_sa3 [label="Write great poem with lasting effect", shape="box"]
+		siegfried_sa3_showProblem [label="Show the problem", shape="box"]
+		siegfried_sa3_realize [label="S. realizes there's a problem", shape="box"]
+		siegfried_sa3_showCatalyst [label="Show catalyst for change", shape="box"]
+		siegfried_sa3_showDevRes [label="Show dev. of res. to fac. change/success", shape="box"]
+		siegfried_sa3_showSuccessFailure [label="Show success/failure", shape="box"]
+
+		siegfried_sa3 -> siegfried_sa3_showProblem
+		siegfried_sa3 -> siegfried_sa3_realize
+		siegfried_sa3 -> siegfried_sa3_showCatalyst
+		siegfried_sa3 -> siegfried_sa3_showDevRes
+		siegfried_sa3 -> siegfried_sa3_showSuccessFailure
+
+#	}
+	subgraph cluster_g2 {
+		label="Valkyrie's problems"
+	}
+#	subgraph cluster_g3 {
+#		label="Egregorius's story arc"
+
+		egregorius_sa1 [label="Make Nibelungia a Gau of Cleanlands"]
+<sc46_desc>
+# The mages control the world right now and want to continue doing so in future.
+# In order to do so, all of the governed species must be controlled/tamed by them.
+# The people of Cleanlands can be controlled by the mages and therefore the life there
+# is better than in Nibelungia.
+#
+# The mages tried to conquer/destroy Nibelungia several times and always failed.
+# Now they try to destroy it using non-military means.
+#
+# They want to destroy Nibelungia because for some reason, Nibelungians are less prone to
+# their propaganda than the people of Cleanlands. The mages fear that if the Nibelungians
+# are not killed
+#
+# Show the problem. The problem is that the Nibelungs are getting out of control.
+# Or - the cold war didn't work out, really.
+</sc46_desc>
+		sc46_note [label="Some Cleanlands sympathize with N.,\nN. has military parity with C.,\nif not stopped, N. may be able to\nchange the minds of Cleanlandsians.", shape="note"]
+		sc46_note -> sc46 [dir="none"]
+		
+		sc46_note2 [label="E. may look at some stats\nduring his training", shape="note"]
+		sc46_note2 -> sc46
+		sc46 [label="46: E. realizes that cold war didn't\nkill N., only made them stronger.", shape="box", fillcolor="palegoldenrod", style="filled"]
+		p_magesBunker -> sc46
+		c_egregorius -> sc46
+		sc46 -> t59
+
+# End of scene 46
+
+# Make the character realize there is a problem.
+
+<sc47_desc>
+# Egregorius attends a seminar, where he learns that Nibelung and Cleanlands' minds are complimentary,
+# i. e. by forming a group with Nibelungs and Cleanlandsians, the group is much more likely to achieve
+# scientific breakthroughs than any of them alone.
+#
+# This means: Together N. and Cleanlands
+</sc47_desc>
+		sc47_note [label="They can visit a cage with captivated Nibelungs and Cleanlandsians and how they get along", shape="note"]
+		sc47 [label="E. attends a seminar on complimentarity of Nibelungs and Cleanlands", shape="box", fillcolor="palegoldenrod", style="filled"]
+
+		cg_nibelungPrisoners -> sc47
+		cg_cleanlandsPrisoners -> sc47
+		c_egregorius -> sc47
+		c_mageScientist -> sc47
+		p_magesBunker -> sc47
+		sc47_note -> sc47
+		sc47 -> t60
+
+# End of scene 47
+
+<sc48_desc>
+# Several Cleanlands intellectuals propose to the government of Cleanlands to bury the hatchet
+# and unite Cleanlands and Nibelungia into one state, so that resources that go into 
+# warfare are put into art and science instead.
+</sc48_desc>
+		sc48 [label="E. attends meeting regarding\nproposal of Cleanlands' intellectuals\nto unite with Nibelungia", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc48 -> t61
+		c_egregorius -> sc48
+		p_magesBunker -> sc48
+		cg_councilMembers -> sc48
+
+# End of scene 48
+
+<sc49_desc>
+# Confrontation between E. and his rival.
+#
+# E. wants to destroy Nibelungia using military means and economic pressure.
+# 
+# His rival thinks that Nibelungia thrives under pressure (threats from Cleanlands force it to develop
+# science and technology, thus strenthening its military power), hence in order to make Nibelungia degrade,
+# it is necessary to lessen the pressure on it by declaring a long period of peace with the Cleanlands.
+<sc49_desc>
+		sc49 [label="Confrontation between E. and his rival", shape="box", fillcolor="palegoldenrod", style="filled"]
+		c_egregorius -> sc49
+		c_egregoriusRival -> sc49
+		p_magesBunker -> sc49
+		sc49 -> t62
+
+# End of scene 49
+
+<sc50_desc>
+# Meeting between Nibelungian elders. They discuss, how to join Cleanlands on acceptable (for the Nibelungs)
+# terms. Two leaders - N. elder 1 and N. elder 2.
+#
+# They agree on the following plan:
+# 
+# 1) First, they give rise to a hard-core, hawkish leader.
+# 2) He frightens the elite of the Cleanlands.
+# 3) Then, they replace the hawkish leader with a more pleasant/peaceful one.
+#
+# Since both of them are just executors of a bigger plans, they must not have their own intelligence.
+# The hawkish and the peaceful leader must be something like trained monkeys.
+#
+# But as stupid as they are, both need additional training. The hawkish one needs to get to know weapons,
+# strategy and the secrets of Nibelungo-Cleanlandsian politics.
+#
+# The stupid one needs to be indoctrinated with peaceful ideology.
+</sc50_desc>
+		sc50 [label="Nibelungian leaders discuss how to\njoin Cleanlands on acceptable terms", shape="box", fillcolor="palegoldenrod", style="filled"]
+		c_nibelungElder1 -> sc50
+		c_nibelungElder2 -> sc50
+		cg_nibelungLeaders -> sc50
+		cg_nibelungCorruptionists -> sc50
+		p_nibelungianGovtBuilding -> sc50
+		sc50 -> t63
+
+# End of scene 50
+
+<sc51_desc>
+# Nibelung elite wants to change the regime. It doesn't want to live like they used. They want independence
+# and liberty to steal as much as they can.
+#
+# If Nibelungia joins Cleanlands, they will become lesser in ranks than now. If Cleanlands destroy the state
+# system of Nibelungia, they can steal much more money than now.
+</sc51_desc>
+		sc51 [label="Nibelung elder 2 meets with Nibelung corruptionists,\nproposes to subvert the plan of N. elder 1", shape="box", fillcolor="palegoldenrod", style="filled"]
+		c_nibelungElder2 -> sc51
+		cg_nibelungCorruptionists -> sc51
+		p_corruptionistsMansion -> sc51
+		sc51 -> t64
+
+		cg_nibelungCorruptionists_note [label="Find a better name for this group", shape="note"]
+		cg_nibelungCorruptionists -> cg_nibelungCorruptionists_note
+
+# End of scene 51
+
+<sc94f_desc>
+# Cleanlands and or mage elite reps electrocute Michael the Monkey from 
+# the insane asylum, until he gets dumb enough and has a mark on his head
+</sc94f_desc>
+		sc94f [label="Cleanlands and or mage elite reps electrocute Michael the Monkey", shape="box", fillcolor="palegoldenrod", style="filled"]
+		c_michaelTheMonkey -> sc94f
+		cg_nibelungCorruptionists -> sc94f
+		p_magesBunker -> sc94f
+		sc94f -> t100
+
+# End of scene 94F
+
+# Nibelung elder 2 tells to a Cleanlands spy about the plan.
+		sc52 [label="Nibelung elder 2 tells to a Cleanlands spy about the plan.", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc52 -> t65
+		c_nibelungElder2 -> sc52
+		c_spy -> sc52
+		p_corruptionistsMansion -> sc52
+		c_femaleFriendOfNibelungElder2 -> sc52 [style="dashed"]
+
+# End of scene 52
+
+# Egregorius meets with the spy.
+		sc53 [label="Egregorius meets the spy", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc53 -> t66
+		c_egregorius -> sc53
+		c_spy -> sc53
+		p_magesBunker -> sc53
+
+# End of scene 53
+
+<sc54_desc>
+# There is an ongoing discussion on whether Cleanlands should leave N. in peace, or attack it.
+# After the spy's message, Egregorius has an argument in favor of hard-core line:
+#
+# 1) If the mages don't intervene and the plan of the Nibelung elders works out, Nibelung and Cleanlands 
+# people will peacefully unite. In this case Nibelung culture will modify Cleanlands mindset and together
+# Nibelungo-Cleanlandsian intellectuals will achieve the same level of intellect (discover the secrets,
+# which now only the mages know) as the mages. Then, they may decide to govern themselves without the mages.
+#
+# 2) The hawkish leader may attack Cleanlands to prove he means business. Or he may provide the Barbarians
+# with some technology they can use to attack Cleanlands.
+#
+# He proposes to subvert the hawkish-peaceful leader plan with the help of Nibelung elite.
+</sc54_desc>
+		sc54 [label="Egregorius' speech before the council", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc54 -> t67
+		c_egregorius -> sc54
+		c_egregoriusRival -> sc54
+		cg_councilMembers -> sc54
+		p_magesBunker -> sc54
+
+# End of scene 54
+
+		sc55 [label="Nibelung elder 1 dies", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc55_note1 [label="После смерти на мою могилу\nнанесут много мусора.\nНо ветер истории развеет его.", shape="note"]
+		sc55 -> sc55_note1 [dir="none"]
+		sc55 -> t68
+		
+		c_nibelungElder1 -> sc55
+		c_nibelungElder2 -> sc55
+		p_spiritualPlaceOfNibelungs -> sc55
+		c_pilot -> sc55
+		c_michaelTheMonkey -> sc55
+# End of scene 55
+
+<sc56_desc>
+# Now after the death of Nibelung elder #1, the hawkish leader (the pilot) is supposed to get into power.
+</sc56_desc>
+		sc56 [label="Nibelung courtiers prepare the pilot for coronation", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc56 -> t69
+		p_valkyriesHomeCastle -> sc56
+		c_pilot -> sc56
+		cg_nibelungCourtiers -> sc56
+
+# End of scene 56
+
+<sc57_desc>
+# Twist: Maybe the pilot is at the Valkyrie's home castle before coronation. When he is assassianted,
+# the Cleanlands spy burn down the castle (to make sure he is really dead).
+</sc57_desc>
+		sc57 [label="Cleanlands special troops (helicopter?) tries to kill the pilot", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc57 -> t5
+		cg_cleanlandsSoldiers4 -> sc57
+		c_pilot -> sc57
+		c_valkyrie -> sc57
+		cg_valkyriesRelatives -> sc57
+		p_valkyriesHomeCastle -> sc57
+# End of scene 57
+
+		sc58 [label="The pilot escapes into the land of the outcasts", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc58 -> t71
+		c_pilot -> sc58
+		p_outcasts -> sc58
+
+# End of scene 58
+
+		sc59 [label="Coronation of Michael the Monkey", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc59 -> t72
+		p_nibelungianGovtBuilding -> sc59
+		c_michaelTheMonkey -> sc59
+		c_nibelungElder2 -> sc59
+		cg_nibelungCorruptionists -> sc59
+
+# End of scene 59
+		sc60 [label="Cleanlandsian king visits Nibelungia, awards an order to Michael the Monkey", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc60 -> t73
+		с_kingOfCleanlands -> sc60
+		c_michaelTheMonkey -> sc60
+		p_nibelungianGovtBuilding -> sc60
+# End of scene 60
+
+<sc61_desc>
+# Michael the Monkey is happy about the order. Jumps and screams from happiness.
+</sc61_desc>
+		sc61 [label="Michael the Monkey is happy about the order", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc61 -> t74
+		c_michaelTheMonkey -> sc61
+		p_nibelungKingsResidence -> sc61
+# End of scene 61
+
+<sc62_desc>
+# Nibelung elder 2 meets with Nibelung corruptionists the second time.
+# 
+# They need a new "leader", who will make Nibelungia a Gau of the Cleanlands and allow them to steal more.
+# Problem: Michael the Monkey is still too intelligent. They need someone with the brain of a rat.
+#
+# Yeltsin played with a grenade and tried to open it using a hammer.
+#
+# Margaret Thatcher is also a trained monkey, a cardboard president or robot.
+#
+# Same for Winston Churchill
+#
+# Nibelung elders may even take this tradition of carboard presidents from the mages. 
+# The mages started it first.
+</sc62_desc>
+		sc62 [label="Second meeting of the corruptionists", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc62 -> t75
+		c_nibelungElder2 -> sc62
+		cg_nibelungCorruptionists -> sc62
+		p_corruptionistsMansion -> sc62
+# End of scene 62
+
+		sc63 [label="The corruptionists discover Boris the Rat", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc63 -> t76
+		cg_nibelungCorruptionists -> sc63
+		c_borisTheBadger -> sc63
+		p_borisDen -> sc63
+		c_BorisDoctor -> sc63
+# End of scene 63
+
+		sc64 [label="The corruptionists install a rat's brain\ninto Boris' head, transform him into\na remote-controlled zombie", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc64_note [label="After the operation, Boris the Rat starts to\nappend 'got it?' at the end\nof each sentence, got it?", shape="note"]
+		sc64_note2 [label="Boris the ?, ? should be an animal\nstarting with B - Badger, Barnacle,\nBasset Hound, Bird, Bison, Bear, Bloodhound,\nBobcat, Bluetick Coonhound, Bolognese,\nBonobo, Booby, Border Collie,\nBuffalo, Budgerigar, Bull,\nbullfrog, bumble bee, butterfly", shape="note"]
+
+		sc64_note -> sc64
+		sc64_note2 -> sc64
+		sc64 -> t77
+		p_magesBunker -> sc64
+		c_nibelungElder2 -> sc64
+		c_mageSurgeon -> sc64
+		c_spy -> sc64
+
+# End of scene 64
+
+<sc65_desc>
+# Parade of jesters
+#
+# Nibelung elder 2 meets with several jesters. They are supposed to entertain the crowd, when the
+# Cleanlands troops march in.
+</sc65_desc>
+		sc65 [label="Nibelung elder 2's meeting with the jesters", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc65 -> t78
+		c_nibelungElder2 -> sc65
+		c_jester1 -> sc65
+		c_jester2 -> sc65
+		c_jester3 -> sc65
+		p_corruptionistsMansion -> sc65
+# End of scene 65
+
+<sc66_desc>
+# Alex the prophet
+# His purpose is to intellectually justify the occupation of Nibelungia. He is a respected
+# Nibelungian, a fighter with the regime.
+</sc66_desc>
+		sc66 [label="Introduction of Alex the Prophet", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc66 -> t79
+		c_nibelungElder2 -> sc66
+		c_alexTheProphet -> sc66
+		sc66_note [label="What if Alex the Prophet and\nall others (Michael, Boris, the jesters)\ncome from a mental institution?", shape="note"]
+		p_mentalInstitution -> sc66
+
+# End of scene 66
+
+<sc67_desc>
+# Preparation for invasion
+</sc67_desc>
+		sc67 [label="Cleanlands troops march into\nNibelungia's capital city.\nBoris the ? receives them.", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc67 -> t80
+		p_centralSquare -> sc67
+		c_borisTheBadger -> sc67
+		cg_cleanlandsSoldiers5 -> sc67
+
+# End of scene 67
+
+		sc68 [label="Boris the ? goes with the\nCleanlands soldiers to the residence\nof Michael the Monkey and kills him", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc68 -> t81
+		c_borisTheBadger -> sc68
+		c_michaelTheMonkey -> sc68
+		cg_cleanlandsSoldiers5 -> sc68
+		p_nibelungKingsResidence -> sc68
+
+# End of scene 68
+
+		sc69 [label="Boris the ? disbands Nibelung military", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc69_note1 [label="Alex the Prophet tells,\nwhy it's the right thing", shape="note"]
+		sc69_note2 [label="Watch the scene from '72 meters',\nwhere protagonist's unit is offered\nservice in Ukrainian army", shape="note"]
+		sc69_note1 -> sc69
+		sc69_note2 -> sc69
+		sc69 -> t82
+		c_borisTheBadger -> sc69
+		cg_nibelungCrowd -> sc69
+		cg_nibelungMilitary -> sc69
+		p_centralSquare -> sc69
+		c_pilot -> sc69
+		sc69_note3 [label="The pilot watches the\nscene unnoticed by anyone", shape="note"]
+		sc69_note3 -> sc69
+		sc69_note3 -> c_pilot
+
+# End of scene 69
+
+<sc70_desc>
+# Scene 70 can be a great show, like the concert after the Putsch in 1991. Jesters and Alex the prophet tell
+# 
+# 1) how great the transition to the Cleanlands way of life is, and 
+# 2) the Nibelungs have been doing all wrong.
+</sc70_desc>
+		sc70 [label="Boris the ? installs the giant Simulacrum\nin the center of Nibelungia's capital city", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc70 -> t83
+		sc70_note [label="Add here a cute faggot like Tal'kov", shape="note"]
+		sc70_note -> sc70
+		c_borisTheBadger -> sc70
+		cg_nibelungCrowd -> sc70
+		c_jester1 -> sc70
+		c_jester2 -> sc70
+		c_jester3 -> sc70
+		p_centralSquare -> sc70
+
+# End of scene 70
+
+<sc71_desc>
+# Purpose of this scene is to show the decay of everyday life after the invasion.
+</sc71_desc>
+		sc71 [label="People in the mines see a moving picture\nin the simulacrum about Nibelungs being\nrenamed to Nibelungians", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc71 -> t84
+		cg_miners -> sc71
+		p_mines -> sc71
+
+# End of scene 71
+
+<sc72_desc>
+# Celebration of Nibelungia's defeat in the council of the mages
+# sc72: Place is the former NORAD bunker in the Cheyenne mountain, which now is more a memorial place.
+#
+# Purpose of the scene is to discuss the results of the invasion:
+#
+# 1) Military defeat - now Nibelungia simply doesn't have a military.
+# 2) Intellectual defeat - 99 % of Nibelungia's intellectuals have either emigrated to Cleanlands (where
+# they just enjoy life and/or struggle for survival), or work in Nibelungian mines and devote their 
+# brainpower to mining as much coal as possible.
+</sc72_desc>
+		sc72 [label="Mages celebrate Nibelungia's annexion", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc72 -> t85
+		c_egregorius -> sc72
+		c_egregoriusRival -> sc72
+		cg_councilMembers -> sc72
+		p_magesBunker -> sc72
+
+# End of scene 72
+
+<sc73_desc>
+# Several years after the invasion, Nibelungia shows no signs of death. The society still lives and
+# the decay of the population has stopped. The Nibelungs have adapted themselves to the harsh conditions
+# of the mines.
+</sc73_desc>
+		sc73 [label="Egregorius observes life in\nNibelungia to find out,\nhow to finally kill it", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc73 -> t86
+		c_egregorius -> sc73
+		p_centralSquare -> sc73
+
+# End of scene 73
+
+<sc74_desc>
+# Egregorius talks with a colleague, who was responsible for putting Cleanlands under control.
+# He proposes to provoke Nibelungians to an uprising, then apply weapons of mass destruction to kill
+# all of them with one strike. This scheme has been applied in various Gaus of the Cleanlands and even
+# to Barbarians.
+#
+# Egregorius thinks about how to incite an uprising.
+</sc74_desc>
+		sc74 [label="Egregorius thinks about\nhow to incite an uprising\nin Nibelungia", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc74 -> t87
+		c_egregorius -> sc74
+		c_egregoriusColleague -> sc74
+		p_magesBunker -> sc74
+
+# End of scene 74
+
+<sc75_desc>
+# Egregorius initiates a set of measures targeted against Nibelung women. Its purpose is to make the
+# Nibelungs revolt.
+</sc75_desc>
+		sc75 [label="Valkyrie is affected by anti-women\npolicies, decides to flee to Cleanlands", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc75 -> e8 [label="leads to"]
+		sc75 -> t88
+		c_egregorius -> sc75
+		c_borisTheBadger -> sc75
+		p_nibelungKingsResidence -> sc75
+
+# End of scene 75
+
+<sc76_desc>
+# Fight between E. and his rival. The latter accuses E. of recommending the wrong strategy.
+# Because E. wanted to go hard-core, the mages did and - despite the expectations - Nibelungia
+# did not crumble. Sure, the life there isn't as good as in Cleanlands, but Nibelungia doesn't
+# show signs of fast death. The population growth plunged during the first years, but now
+# it's recovering and no amount of brainkilling jester propaganda could bring Nibelungia 
+# down completely.
+#
+# E's rival proposes to kill Nibelungia by not trying to kill it, by a real detente, which
+# will make Nibelungs lazy and thus guarantee a slow, but sure degradation.
+#
+# E says that the council shoul decide. They should vote in several weeks on who is to become
+# the leader of the future Nibelung Gau.
+#
+# The council and E's rival agree.
+</sc76_desc>
+		sc76 [label="Fight between E. and his rival at the Council meeting", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc76 -> t89
+		c_egregorius -> sc76
+		c_egregoriusRival -> sc76
+		cg_councilMembers -> sc76
+		p_magesBunker -> sc76
+
+# End of scene 76
+
+<sc77_desc>
+# E. talks with members of the council in an attempt to convince them that his line is the right one.
+</sc77_desc>
+		sc77 [label="E. talks with members of the Council", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc77 -> t90
+		c_egregorius -> sc77
+		c_egregoriusRival -> sc77
+		cg_councilMembers -> sc77
+		p_magesBunker -> sc77
+
+# End of scene 77
+
+<sc78_desc>
+# The council votes in favor of E. and elects him the leader of future Nibelung Gau
+</sc78_desc>
+#		sc78 [label="E. becomes leader of Nibelung Gau", shape="box", fillcolor="palegoldenrod", style="filled"]
+#		sc78 -> t91
+#		c_egregorius -> sc78
+#		c_egregoriusRival -> sc78
+#		cg_councilMembers -> sc78
+#		p_magesBunker -> sc78
+
+# End of scene 78
+
+<sc79_desc>
+# Boris the ? dies and/or is killed.
+</sc79_desc>
+		sc79 [label="Boris the ? dies", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc79 -> t92
+		c_borisTheBadger -> sc79
+		cg_cleanlandsSoldiers6 -> sc79
+		p_nibelungKingsResidence -> sc79
+# End of scene 79
+
+# E. becomes the leader of the Nibelung Gau officially
+		sc80 [label="E. becomes leader of the Nibelung Gau", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc80 -> t93
+		p_nibelungianGovtBuilding -> sc80
+		cg_nibelungCorruptionists -> sc80
+		cg_nibelungCourtiers -> sc80
+		c_egregorius -> sc80
+
+# End of scene 80
+
+<sc81_desc>
+# E. discusses with the chief of intelligence of the mages, what to do about the 
+# (probably existing) underground resistance of the Nibelungs.
+#
+# 1) The attempt at inciting an uprising by hurting women failed. There was no revolution, nothing.
+# 2) No viable resistance has formed despite the fact that Boris the ? destroyed almost every aspect of life. 
+# Forcing people to the mines did not upset them!
+# 3) E. asks the chief of intelligence to investigate as thoroughly as possible, who may be the leaders of the resistance.
+# 4) Also, E. asks him to find out what happened to the Nibelung elders.
+# 5) He (chief of intelligence) argues that if they existed, he would know.
+# 6) E. says the Nibelungs may have developed a new form of magic. He explains to the chief of intelligence
+# the legend about soul transfer and that higher powers protected Nibelungia.
+# 7) Chief of intelligence promises to investigate these rumors.
+</sc81_desc>
+		sc81 [label="Meeting of E. with the\nchief of intelligence", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc81_note [label="Consider splitting this\nscene into several smaller ones", shape="note"]
+		sc81_note -> sc81 [dir="none"]
+		sc81 -> t94
+		c_egregoriusRival -> sc81
+		c_chiefOfIntelligence -> sc81
+		p_nibelungianGovtBuilding -> sc81
+
+# End of scene 81
+
+# Chief of intelligence talks with leaders of Nibelungian resistance in the mines. Finds they aren't serious.
+# 1) Too egocentric (Navalny, Zhirinovski etc.)
+# 2) With outdated ideologies (Communists)
+# 3) Psedo-opposition cotrolled by the central power/king (Mironov)
+		sc82a [label="Chief of inteligence talks\nwith Nibelungian resistance leader #1"]
+		sc82b [label="Chief of inteligence talks\nwith Nibelungian resistance leader #2"]
+		sc82c [label="Chief of inteligence talks\nwith Nibelungian resistance leader #3"]
+
+		c_chiefOfIntelligence -> sc82a
+		c_chiefOfIntelligence -> sc82b
+		c_chiefOfIntelligence -> sc82c
+
+		c_nibelungResistanceLeader1 -> sc82a
+		c_nibelungResistanceLeader2 -> sc82b
+		c_nibelungResistanceLeader3 -> sc82c
+
+		p_residenceOfNibelungResistanceLeader1 -> sc82a
+		p_residenceOfNibelungResistanceLeader2 -> sc82b
+		p_residenceOfNibelungResistanceLeader3 -> sc82c
+
+		sc82a -> sc82
+		sc82b -> sc82
+		sc82c -> sc82
+
+		sc82 [label="Chief of inteligence talks\nwith Nibelungian resistance leaders", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc82 -> t95
+
+# End of scene 82
+		sc83 [label="E. talks the chief of\nintelligence again, urges him\nto find roots of uprising", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc83 -> t96
+		c_egregorius -> sc83
+		c_chiefOfIntelligence -> sc83
+		p_nibelungKingsResidence -> sc83
+
+# End of scene 83
+
+		sc84 [label="Chief of intelligence\nasks his people to find\nsomeone, who looks like a\nrebel to make E. happy", shape="box", fillcolor="palegoldenrod", style="filled"]
+		sc84 -> t97
+		c_chiefOfIntelligence -> sc83
+		cg_intelligenceStaff -> sc84
+		p_spyMinistry -> sc84
+
+# End of scene 84
+
+		sc85 [label="E. says to Chief of intelligence that S. is proof that an uprising is boiling in N.", shape="box", fillcolor="palegoldenrod", style="filled"]
+		# sc85 -> t98
+		sc85 -> t44
+		c_egregorius -> sc85
+		c_chiefOfIntelligence -> sc85
+		p_nibelungianGovtBuilding -> sc85
+
+# End of scene 85
+#	}
+//	subgraph cluster_events {
+//		label="Events"
+
+		e1 [label="Siegfried is born"]
+		e2 [label="Valkyrie is born"]
+		e3 [label="Egregorius is born"]
+		e4 [label="Invasion"]
+		e5 [label="Valkyrie's home castle is destroyed"]
+		e6 [label="Siegfried goes to Cleanlands\n(internship)"]
+		e7 [label="Siegfried gets his degree as poet"]
+		e8 [label="Siegfried starts travel to Nibelungia"]
+		e9 [label="Valkyrie starts travel to Cleanlands"]
+		e10 [label="Siegfried meets Valkyrie"]
+
+		e11 [label="Cleanlands Gau attacks Nibelungia"]
+		e12 [label="Nibelungia fights back,\nCleanLands Gau loses the war"]
+
+		e13 [label="Cleanlands declares cold war on Nibelungia"]
+
+		e14 [label="Some major conflict between\nRussia and the West occurs"]
+		e15 [label="The US drops nukes on Russia"]
+		e16 [label="Most people are killed,\nthe survivors degraded to Neanderthals"]
+//	}
+
+	subgraph cluster_timeline {
+		label="Timeline\nA -> B means that B happened after A"
+
+		t0 [label="t0", shape="circle"]
+		tf [shape="circle"]
+		t1 [label="t1", shape="circle"]
+		t1_note [shape="note", label="2208"]
+		t1_note -> t1 [dir="none"]
+
+		t2 [label="t2", shape="circle"]
+		t2_note [shape="note", label="2209"]
+		t2_note -> t2 [dir="none"]
+
+		t3 [label="t3", shape="circle"]
+		t3_note [label="25.02.2174", shape="note"]
+		t3_note -> t3 [dir="none"]
+
+		t5 [label="t5", shape="circle"]
+		t5_note [shape="note", label="2222 (S - 14yo, V - 13 yo)"]
+		t5_note -> t5 [dir="none"]
+
+		t6 [label="t6", shape="circle"]
+		t7 [label="t7",shape="circle"]
+		t7_note [label="01.02.2222", shape="note"]
+		t7_note -> t7 [dir="none"]
+		t8 [label="t8",shape="circle"]
+
+		t9 [label="t9",shape="circle"]
+		t9_note [label="06.08.2222", shape="note"]
+		t9_note -> t9 [dir="none"]
+
+		t10 [label="t10",shape="circle"]
+		t10_note [label="07.08.2222 00:00", shape="note"]
+		t10_note -> t10 [dir="none"]
+
+		t11 [label="t11",shape="circle"]
+		t11_note [label="10.08.2222 19:00", shape="note"]
+		t11_note -> t11 [dir="none"]
+
+		t12 [label="t12",shape="circle"]
+		t12_note [label="24.08.2222", shape="note"]
+		t12_note -> t12 [dir="none"]
+		
+		t13 [label="t13",shape="circle"]
+		t13_note [label="10.08.2222 12:00", shape="note"]
+		t13_note -> t13 [dir="none"]
+
+		t14 [label="t14",shape="circle"]
+		t14_note [label="31.08.2222", shape="note"]
+		t14_note -> t14 [dir="none"]
+		
+		t15 [label="t15",shape="circle"]
+		t15_note [label="11.08.2222", shape="note"]
+		t15_note -> t15 [dir="none"]
+
+		t16 [label="t16",shape="circle"]
+		t16_note [label=”02.09.2222”]
+		t16_note -> t16 [dir="none"]
+
+		t17 [label="t17",shape="circle"]
+		t17_note [label="03.09.2222", shape="note"]
+		t17_note -> t17
+		t18 [label="t18",shape="circle"]
+		t19 [label="t19",shape="circle"]
+		
+		t20 [label="t20",shape="circle"]
+		t20_note [label="03.12.2222", shape="note"]
+		t20_note -> t20
+
+		t21 [label="t21",shape="circle"]
+		t22 [label="t22",shape="circle"]
+		t23 [label="t23",shape="circle"]
+		t24 [label="t24",shape="circle"]
+		t25 [label="t25", shape="circle"]
+		t26 [label="t26", shape="circle"]
+		t27 [label="t27", shape="circle"]
+		t28 [label="t28", shape="circle"]
+		t29 [label="t29", shape="circle"]
+		t30 [label="t30", shape="circle"]
+		t31 [label="t31", shape="circle"]
+		t32 [label="t32", shape="circle"]
+		t33 [label="t33", shape="circle"]
+		t34 [label="t34", shape="circle"]
+		t35 [label="t35", shape="circle"]
+		t36 [label="t36", shape="circle"]
+		t37 [label="t37", shape="circle"]
+		t38 [label="t38", shape="circle"]
+		t39 [label="t39", shape="circle"]
+		t40 [label="t40", shape="circle"]
+		t41 [label="t41", shape="circle"]
+		t42 [label="t42", shape="circle"]
+		t43 [label="t43", shape="circle"]
+		t44 [label="t44", shape="circle"]
+		
+		t45 [label="t45", shape="circle"]
+		t45_note [label="28.02.2223", shape="note"]
+		t45_note -> t45 [dir="none"]
+
+		t46 [label="t46", shape="circle"]
+		t46_note [label="12.03.2223", shape="note"]
+		t46_note -> t46 [dir="none"]
+
+		t47 [label="t47", shape="circle"]
+		
+		t48 [label="t48", shape="circle"]
+		t48_note [label="11.03.2223", shape="note"]
+		t48_note -> t48 [dir="none"]
+
+		t49 [label="t49", shape="circle"]
+		
+		t50 [label="t50", shape="circle"]
+		t50_note [label="26.03.2223", shape="note"]
+		t50_note -> t50 [dir="none"]
+
+		t51 [label="t51", shape="circle"]
+		t51_note [label="26.03.2223", shape="note"]
+		t51_note -> t51
+
+		t52 [label="t52", shape="circle"]
+		t52_note [label="27.03.2223", shape="note"]
+		t52_note -> t52
+
+		t53 [label="t53", shape="circle"]
+		t53_note [shape="note", label="01.10.2165"]
+		t53_note -> t53 [dir="none"]
+		
+		t54 [label="t54", shape="circle"]
+		t54_note [shape="note", label="2169"]
+		t54_note -> t54 [dir="none"]
+		
+		t55 [label="t55", shape="circle"]
+
+		t56 [label="t56", shape="circle"]
+		t56_note [label="01.01.2015", shape="note"] # TODO: It was 2015, I changed it to 01.01.2015
+		t56_note -> t56 [dir="none"]
+
+		t57 [label="t57", shape="circle"]
+		t58 [label="t58", shape="circle"]
+		t58_note [label="01.10.2015", shape="note"]
+		t58_note -> t58 [dir="none"]
+
+		t59 [label="t59",shape="circle"]
+		t59_note [label="25.02.2207", shape="note"]
+		t59_note -> t59 [dir="none"]
+
+		t60 [label="t60",shape="circle"]
+		t60_note [label="25.03.2207", shape="note"]
+		t60_note -> t60
+		t61 [label="t61",shape="circle"]
+		t62 [label="t62",shape="circle"]
+		
+		t63 [label="t63",shape="circle"]
+		t63_note [label="01.09.2221", shape="note"]
+		t63_note -> t63 [dir="none"]
+		
+		t64 [label="t64",shape="circle"]
+		t64_note [label="04.09.2221", shape="note"]
+		t64_note -> t64 [dir="none"]
+		
+		t65 [label="t65",shape="circle"]
+		t65_note [label="11.09.2221", shape="note"]
+		t65_note -> t65 [dir="none"]
+		
+		t66 [label="t66",shape="circle"]
+		t66_note [label="25.09.2221", shape="note"]
+		t66_note -> t66 [dir="none"]
+
+		t67 [label="t67",shape="circle"]
+		t67_note [label="28.09.2221", shape="note"]
+		t67_note -> t67 [dir="none"]
+		
+		t68 [label="t68",shape="circle"]
+		t68_note [label="18.12.2221", shape="note"]
+		t68_note -> t68 [dir="none"]
+
+		t69 [label="t69",shape="circle"]
+		t69_note [label="02.02.2222", shape="note"]
+		t69_note -> t69 [dir="none"]
+		
+		t71 [label="t71",shape="circle"]
+		t71_note [label="04.02.2222 07:15", shape="note"]
+		t71_note -> t71 [dir="none"]
+		
+		t72 [label="t72",shape="circle"]
+		t72_note [label="04.02.2222 12:00", shape="note"]
+		t72_note -> t72 [dir="none"]
+		
+		t73 [label="t73",shape="circle"]
+		t73_note [label="18.02.2222", shape="note"]
+		t73_note -> t73 [dir="none"]
+		
+		t74 [label="t74",shape="circle"]
+		t74_note [label="19.02.2222", shape="note"]
+		t74_note -> t74 [dir="none"]
+		
+		t75 [label="t75",shape="circle"]
+		t75_note [label="04.03.2222", shape="note"]
+		t75_note -> t75 [dir="none"]
+		
+		t76 [label="t76",shape="circle"]
+		t76_note [label="11.03.2222", shape="note"]
+		t76_note -> t76 [dir="none"]
+		
+		t77 [label="t77",shape="circle"]
+		t77_note [label="18.03.2222", shape="note"]
+		t77_note -> t77
+		
+		t78 [label="t78",shape="circle"]
+		t78_note [label="01.05.2222", shape="note"]
+		t78_note -> t78
+		
+		t79 [label="t79",shape="circle"]
+		t79_note [label="02.05.2222", shape="note"]
+		t79_note -> t79
+		
+		t80 [label="t80",shape="circle"]
+		t80_note [label="22.06.2222", shape="note"]
+		t80_note -> t80 [dir="none"]
+
+		t81 [label="t81",shape="circle"]
+		
+		t82 [label="t82",shape="circle"]
+		t82_note [label="25.06.2222", shape="note"]
+		t82_note -> t82
+		t80 -> t82 [label="3 days", style="dashed"]
+		
+		t83 [label="t83",shape="circle"]
+		t83_note [label="28.06.2222", shape="note"]
+		t83_note -> t82 [dir="none"]
+		t82 -> t83 [label="3 days", style="dashed"]
+
+		t84 [label="t84",shape="circle"]
+		t84_note [label="28.07.2222", shape="note"]
+		t84_note -> t84 [dir="none"]
+		
+		t85 [label="t85",shape="circle"]
+		t85_note [label="23.06.2222", shape="note"]
+		t85_note -> t85 [dir="none"]
+
+		t86 [label="t86",shape="circle"]
+		t86_note [label="01.07.2222", shape="note"]
+		t86_note -> t86 [dir="none"]
+
+		t87 [label="t87",shape="circle"]
+		t87_note [label="08.07.2222", shape="note"]
+		t87_note -> t87
+
+		t88 [label="t88",shape="circle"]
+		t88_note [label="23.07.2222", shape="circle"]
+		t88_note -> t88 [dir="none"]
+		
+
+		t89 [label="t89",shape="circle"]
+		t89_note [label="01.09.2222", shape="note"]
+		t89_note -> t89 [dir="none"]
+		
+
+		t90 [label="t90",shape="circle"]
+		t90_note [label="08.09.2222", shape="note"]
+		t90_note -> t90 [dir="none"]
+
+#		t91 [label="t91",shape="circle"]
+		t92 [label="t92",shape="circle"]
+		t92_note [label="04.12.2222", shape="note"]
+		t92_note -> t92 [dir="none"]
+
+		t93 [label="t93",shape="circle"]
+		t93_note [label="11.12.2222", shape="note"]
+		t93_note -> t93 [dir="none"]
+		
+		# t20 - 03.12.2222
+		t20 -> t93
+		t92 -> t93
+
+		# t94
+		# Meeting of E. with the\nchief of intelligence
+		# 
+		# This must happen after:
+		# *) t93, 11.12.22, E. becomes leader of the Nibelung Gau
+		# 
+		# This must happen before:
+		# *) t31, 17.02.23, S. and pilot get attacked upon\nthe return to the land of outcasts
+		#
+
+		t94 [label="t94",shape="circle"]
+		t94_note [label="15.12.2222", shape="note"]
+		t94_note -> t94 [dir="none"]
+
+		t95 [label="t95",shape="circle"]
+		t95_note [label="20.12.2222", shape="note"]
+		t95_note -> t95
+
+		# t96		E. talks the chief of\nintelligence again, urges him\nto find roots of uprising
+
+		t96 [label="t96",shape="circle"]
+		t96_note [label="20.02.2223", shape="note"]
+		t96_note -> t96
+
+		t97 [label="t97",shape="circle"]
+		# t98 replaced by t44
+		# t98 [label="t98",shape="circle"]
+
+
+		e17 [label="Start of pilot's king training, sc. 57"]
+
+		t99 [label="t99",shape="circle"]
+		t99_note [label="08.09.2221", shape="note"]
+		t99_note -> t99 [dir="none"]
+
+		t100 [label="t100", shape="circle"]
+		t100_note [label="04.10.2221", shape="note"]
+		t100_note -> t100 [dir="none"]
+		t100 -> t72
+
+		t101 [label="t101", shape="circle"]
+		t101_note [label="08.02.2222", shape="note"]
+		t101_note -> t101 [dir="none"]
+
+		t102 [label="t102", shape="circle"]
+		t102_note [label="04.08.2222", shape="note"]
+		t102_note -> t102 [dir="none"]
+
+		t103 [label="t103", shape="circle"]
+		t103_note [label="?", shape="note"] # TODO: When was it?
+		t103_note -> t103 [dir="none"]
+
+		t104 [label="t104", shape="circle"]
+		t104_note [label="?", shape="note"] # TODO: When was it?
+		t104_note -> t104 [dir="none"]
+
+		t105 [label="t105", shape="circle"]
+		t105_note [label="12.08.2222", shape="note"]
+		t105_note -> t105 [dir="none"]
+
+		t7 -> t101 [label="1 week", style="dashed"]
+
+		t64 -> t100 [label="1 month", style="dashed"]
+
+		t63 -> t99 -> t68
+		e17 -> t99
+
+
+
+		t0 -> t3 -> t1
+		t1 -> t2 [label="1 year", minlen="3"]
+		t2 -> t80 -> t5
+		t2 -> t7 -> t6 -> t80
+		
+
+		t5 -> t8
+		t8 -> t9
+		t9 -> t10
+		t13 -> t11
+		t11 -> t12 [label="2 weeks"]
+		t10 -> t13
+		t12 -> t14 [label="1 week"]
+		t14 -> t15 [label="3 days"]
+		t15 -> t16 -> t17
+		t15 -> t17 [label="3 days", dir="none", style="dashed"]
+		t17 -> t18
+		t18 -> t19
+		t19 -> t20
+		t20 -> t21
+		t21 -> t22
+		t22 -> t23
+		t23 -> t24
+		t24 -> t25
+		t25 -> t26
+		t26 -> t27
+		t27 -> t28
+		t28 -> t29
+		t29 -> t30
+		t30 -> t31
+		t31 -> t32
+		t32 -> t33
+		t33 -> t34
+		t34 -> t35
+		t35 -> t36
+		t36 -> t37
+		t37 -> t38
+		t38 -> t39
+		t39 -> t40
+		t40 -> t41
+		t41 -> t42
+		t42 -> t43
+		t43 -> t44
+		t44 -> t45
+		t45 -> t46
+		t46 -> t47
+		t47 -> t48
+		t48 -> t49
+		t49 -> t50
+		t50 -> t51
+		t51 -> t52
+
+		t53 -> t54 [label="4 years", minlen="3"]
+		t54 -> t55
+
+		t55 -> t80 [label="50 years", minlen="10"]
+
+		t56 -> t57
+		t57 -> t58
+
+		t58 -> t53 [label="150 years", minlen="15"]
+
+		t59 -> t60 [label="1 month"]
+		t60 -> t61
+		t61 -> t62
+		t62 -> t63
+		t63 -> t64
+		t63 -> t5 [label="1 year"]
+		t64 -> t65 [label="1 week"]
+		t65 -> t66
+		t66 -> t67
+		t67 -> t68
+		t68 -> t69
+		t68 -> t5 [label="couple (3) of months"]
+		t69 -> t5
+		t5 -> t71
+		t71 -> t72
+		t72 -> t73
+		t73 -> t74
+		t74 -> t75
+		t75 -> t76
+		t76 -> t77
+		t77 -> t78
+		t78 -> t79
+		t79 -> t80
+		t80 -> t81
+		t81 -> t82
+		t82 -> t83
+		t83 -> t84
+		t84 -> t85
+		t85 -> t86
+		t86 -> t87
+		t87 -> t88
+		t88 -> t89
+		t89 -> t90
+		t90 -> t92
+		t92 -> t93
+		t93 -> t94
+		t94 -> t95
+		t95 -> t96
+		t96 -> t97
+		t97 -> t98
+
+		t59 -> t80 [label="15 years", dir="none", style="dashed", minlen="5"]
+		t61 -> t80 [label="8 years", dir="none", style="dashed", minlen="3"]
+
+		t61_dt [label="2214", shape="note"]
+		t61_dt -> t61 [dir="none"]
+
+		t52 -> tf
+	}
+
+	c_siegfried -> e1 -> t1 [dir="none"]
+	c_valkyrie -> e2 -> t2 [dir="none"]
+	c_egregorius -> e3 -> t3 [dir="none"]
+	p_centralSquare -> e4 -> t80 [dir="none"]
+
+	cg_cleanlandsSoldiers1 -> e5 -> t5 [dir="none"]
+	c_valkyrie -> e5 [dir="none"]
+	p_valkyriesHomeCastle -> e5 [dir="none"]
+
+	c_siegfried -> e6 -> t6 [dir="none"]
+
+	c_siegfried -> e7 -> t7 [dir="none"]
+	p_academy -> e7 [dir="none"]
+
+	c_siegfried -> e8 -> t8 [dir="none"]
+
+	c_valkyrie -> e9 -> t8 [dir="none"]
+
+	p_border -> e10 -> t9 [dir="none"]
+	c_siegfried -> e10 [dir="none"]
+	c_valkyrie -> e10 [dir="none"]
+
+	c_siegfried -> siegfried_sa1
+	c_siegfried -> siegfried_sa2
+	c_siegfried -> siegfried_sa3
+
+	e4 -> sc67
+
+# Rise of the mages (start)
+
+# e14 [label="Some major conflict between\nRussia and the West occurs"]
+# e15 [label="The US drops nukes on Russia"]
+# e16 [label="Most people are killed,\nthe survivors degraded to Neanderthals"]
+
+	e14 -> t56
+	e15 -> t57
+	e16 -> t58
+
+# Rise of the mages (end)
+
+# Events related to Egregorius's story arc (start)
+	e11 -> t53
+	e12 -> t54
+	e13 -> t55
+# Events related to Egregorius's story arc (end)
+
+# Scenes (start)
+
+	sc1 [label="1: S. feels he loves V.", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc2 [label="2: Siegfried and Valkyrie meet each other for the first time", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc3 [label="3: S. writes a letter to V.'s home castle", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc4 [label="4: S. doesn't receive an answer", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc5 [label="5: S. arrives in Nibelungia's capital city", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc6 [label="6: S. visits V's home castle and finds it devastated", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc7 [label="7: S. visits the Academy", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc8 [label="8: S. sees degradation of Nibelungia", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc9 [label="9: S. thinks whether or not\nto become a propaganda poet", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc10 [label="10: S. goes to the mines", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc11 [label="11: S. learns about the magic powers of a magic diamond", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc12 [label="12: S. starts to search for the diamond", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc13 [label="13: S. gets caved in", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc14 [label="14: S. finds the diamond", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc15 [label="15: S. gets into the land of the outcasts\n101st kilometer", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc16 [label="16: S. finds a treasure chest with gold", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc17 [label="17: S. goes to CleanLands", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc18 [label="18: S. can't find V. in Cleanlands", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc19 [label="19: S. returns to the outcasts", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc20 [label="20: S. gets to know the pilot in a tavern", shape="box", fillcolor="palegoldenrod", style="filled"]
+	
+	sc21 [label="21: S. visits the dragon training place", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc22 [label="22: S. goes with the pilot to the flying island", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc23 [label="23: S. meets V. on the flying island", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc24 [label="24: S. and pilot get attacked upon\nthe return to the land of outcasts", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc25 [label="25: S. and pilot find a forgotten castle", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc26 [label="26: S. takes care of the wounded pilot", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc27 [label="27: S. goes to the flying island,\nmeets a magical creature", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc28 [label="28: S. and V. come back to forgotten castle", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc29 [label="29: S. and V. spend a romantic evening", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc30 [label="30: V. discovers that S.\nwrote a poem with his blood", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc31 [label="31: V. urges S. to go to Nibelungia\nand use his connections to\nspread the poem", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc32 [label="32: Pilot teaches S. to fight", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc33 [label="33: Pilot gets sick before\nplanned journey to Nibelungia", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc34 [label="34: S. starts journey to\nNibelungia with the jet dragon", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	sc35 [label="35: S. meets Gernot and gives\nhim a copy of the poem", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	sc36 [label="36: S. gets arrested", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	sc37 [label="37: Talk between S. and Egregorius", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	sc38 [label="38: S. gets at the scaffold", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	sc39 [label="39: While E. is at S's execution,\nE's rival and Gernot put\nthe poem on the simulacri broadcast", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc40 [label="40: In the last moment, the crowd\nsaves S. from execution and\nkills E. by rolling a giant Simulacrum", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc41 [label="41: V. gets nervous about S.'s\nabsence and starts journey\nto N.'s capital city with the pilot", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc42 [label="42: V. arrives in N.'s capital city", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc43 [label="43: V. sees S. surrounded\nby many young women", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc44 [label="44: S. approaches V., V. faints", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc45 [label="45: V. wakes up at the forgotten castle,\nlearns she is pregnant, S. looks\ninto ростки of bright future through\nподзорная труба", shape="box", fillcolor="palegoldenrod", style="filled"]
+
+# scX [label="X: ...", shape="box", fillcolor="palegoldenrod", style="filled"]	
+# Scenes (end)
+
+	siegfried_sa1_showProblem -> sc1
+	sc1 -> t10
+
+	siegfried_sa1_showProblem -> sc3
+	siegfried_sa1_showProblem -> sc4
+
+# Siegfried and Valkyrie meet each other for the first time
+	e10 -> sc2 [dir="none"]
+	sc2 -> t9 [dir="none"]
+
+# /
+
+	sc3 -> t11
+	sc4 -> t12
+
+<sc5_desc>
+# Scene 5: Siegfried arrives in capital city of Nibelungia
+</sc5_desc>
+	p_centralSquare -> sc5
+	sc5 -> t13
+# /
+
+<sc6_desc>
+# Scene 6: S. visits V's home castle and finds it devastated
+</sc6_desc>
+	siegfried_sa2_showProblem -> sc6
+	siegfried_sa1_realize -> sc6
+	p_valkyriesHomeCastle -> sc6
+	sc6 -> t14
+# /
+
+<sc7_desc>
+# Scene 7: S. visits the Academy
+</sc7_desc>
+	p_academy -> sc7
+	sc7 -> t15
+# /
+
+<sc8_desc>
+# Scene 8: S. sees degradation of Nibelungia
+</sc8_desc>
+	siegfried_sa2_showProblem -> sc8
+	p_centralSquare -> sc8
+	sc8 -> t105
+	
+# /
+
+<sc9_desc>
+# Scene 9: S. thinks whether or not\nto become a propaganda poet
+</sc9_desc>
+	siegfried_sa2_realize -> sc9
+	siegfried_sa3_realize -> sc9
+	sc9 -> t16
+# /
+
+<sc10_desc>
+# Scene 10: S. goes to the mines
+</sc10_desc>
+	sc10 -> t17
+	p_mines -> sc10
+# /
+
+<sc11_desc>
+# Scene 11: S. learns about the magic powers of a magic diamond
+</sc11_desc>
+	sc11 -> t18
+	p_mines -> sc11
+	siegfried_sa1_showCatalyst -> sc11
+	siegfried_sa2_showCatalyst -> sc11
+	siegfried_sa3_showCatalyst -> sc11
+# /
+
+<sc12_desc>
+# Scene 12: S. starts to search for the diamond
+</sc12_desc>
+	sc12 -> t19
+	p_mines -> sc12
+
+# /	
+
+<sc13_desc>
+# Scene 13: S. gets caved in
+</sc13_desc>
+	sc13 -> t20
+	p_mines -> sc13
+# /	
+
+<sc14_desc>
+# Scene 14: S. finds the diamond
+</sc14_desc>
+	sc14 -> t21
+	p_mines -> sc14
+# /	
+
+<sc15_desc>
+# Scene 15: S. gets into the land of the outcasts
+</sc15_desc>
+	sc15 -> t22
+	p_outcasts -> sc15
+# /
+
+<sc16_desc>
+# Scene 16: S. finds a treasure chest with gold
+</sc16_desc>
+	sc16 -> t23
+	p_outcasts -> sc16
+# /	
+
+<sc17_desc>
+# Scene 17: S. goes to CleanLands
+</sc17_desc>
+	sc17_sc6_note [shape="note", label="At V's home castle he discovers/gets\nan artifact, which helps\nhim find V in Cleanlands"]
+	sc17_sc6_note -> sc6 [style="dashed", dir="none"]
+	sc17_sc6_note -> sc17 [style="dashed", dir="none"]
+	p_valkyriesHomeCastle -> sc17_sc6_note [style="dashed", dir="none"]
+	sc17 -> t24
+	p_cleanlandsCapital -> sc17
+# /
+
+<sc18_desc>
+# Scene 18: S. can't find V. in Cleanlands
+</sc18_desc>
+	sc18 -> t25
+	p_cleanlandsCapital -> sc18
+# /
+
+<sc19_desc>
+# Scene 19: S. returns to the outcasts
+</sc19_desc>
+	sc19 -> t26
+	p_outcasts -> sc19
+# /
+
+<sc20_desc>
+# Scene 20: S. gets to know the pilot in a tavern
+</sc20_desc>
+	sc20_note [shape="note", label="P. tells S. about jet fuel and dragons"]
+	sc20_note -> sc20 [style="dashed", dir="none"]
+	sc20 -> t27
+	p_outcasts_tavern -> sc20
+	c_pilot -> sc20
+	c_siegfried -> sc20
+# /	
+
+<sc21_desc>21: S. visits the dragon training place</sc21_desc>
+# sc21 [label="21: S. visits the dragon training place", shape="box", fillcolor="palegoldenrod", style="filled"]
+	p_outcasts_dragon_training_ground -> sc21
+	c_siegfried -> sc21
+	c_pilot -> sc21
+	c_jetDragon -> sc21
+	sc21 -> t28
+# /	
+
+<sc22_desc>22: S. goes with the pilot to the flying island</sc22_desc>
+# sc22 [label="22: S. goes with the pilot to the flying island", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc22
+	c_pilot -> sc22
+	p_flying_island -> sc22
+	sc22 -> t29
+# /	
+
+<sc23_desc>23: S. meets V. on the flying island</sc23_desc>
+# sc23 [label="23: S. meets V. on the flying island", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc23
+	c_valkyrie -> sc23
+	p_flying_island -> sc23
+	sc23 -> t30
+# /	
+
+<sc24_desc>24: S. and pilot get attacked upon\nthe return to the land of outcasts</sc24_desc>
+# sc24 [label="24: S. and pilot get attacked upon\nthe return to the land of outcasts", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc82 -> sc24 [label="leads to"]
+
+	c_siegfried -> sc24
+	c_pilot -> sc24
+	p_outcasts -> sc24
+	cg_cleanlandsSoldiers2 -> sc24
+	sc24 -> t31
+# /	
+
+<sc25_desc>25: S. and pilot find a forgotten castle</sc25_desc>
+# sc25 [label="25: S. and pilot find a forgotten castle", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc25
+	c_pilot -> sc25
+	c_jetDragon -> sc25
+	p_forgottenCastle -> sc25
+	sc25 -> t32
+# /	
+
+<sc26_desc>26: S. takes care of the wounded pilot</sc26_desc>
+# sc26 [label="26: S. takes care of the wounded pilot", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc26
+	c_pilot -> sc26
+	p_forgottenCastle -> sc26
+	sc26 -> t33
+# /	
+
+<sc27_desc>27: S. goes to the flying island,\nmeets a magical creature</sc27_desc>
+# sc27 [label="27: S. goes to the flying island,\nmeets a magical creature", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc27
+	c_magicalCreature -> sc27
+	p_spaceBetweenForgottenCastleAndFlyingIsland -> sc27
+	sc27 -> t34
+# /	
+
+<sc28_desc>28: S. and V. come back to forgotten castle</sc28_desc>
+# sc28 [label="28: S. and V. come back to forgotten castle", shape="box", fillcolor="palegoldenrod", style="filled"]
+	
+	c_siegfried -> sc28
+	c_valkyrie -> sc28
+	c_pilot -> sc28
+	c_jetDragon -> sc28
+	p_forgottenCastle -> sc28
+	sc28 -> t35
+# /	
+
+<sc29_desc>29: S. and V. spend a romantic evening</sc29_desc>
+# sc29 [label="29: S. and V. spend a romantic evening", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc29_note [shape="note", label="Add a scene: V's experience\nof riding the dragon with S."]
+	sc29_note -> sc30
+	c_siegfried -> sc29
+	c_valkyrie -> sc29
+	p_forgottenCastle -> sc29
+	sc29 -> t36
+# /	
+
+<sc30_desc>30: V. discovers that S.\nwrote a poem with his blood</sc30_desc>
+# sc30 [label="30: V. discovers that S.\nwrote a poem with his blood", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_valkyrie -> sc30
+	c_siegfried -> sc30
+	p_forgottenCastle -> sc30
+	sc30 -> t37
+# /	
+
+<sc31_desc>31: V. urges S. to go to Nibelungia\nand use his connections to\nspread the poem</sc31_desc>
+# sc31 [label="31: V. urges S. to go to Nibelungia\nand use his connections to\nspread the poem", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc31_note [shape="note", label="Add a scene: V. thinks about S.'\npoem and re-evaluates her feelings towards him"]
+	sc31_note -> sc31
+
+	sc31_note2 [shape="note", label="Add a scene: Someone says that V.\nwants to kill S. because she wants him\nto go to N., where he is likely to be persecuted"]
+	sc31_note2 -> sc31
+	
+	p_forgottenCastle -> sc31
+	c_valkyrie -> sc31
+	c_siegfried -> sc31
+	sc31 -> t38
+# /	
+
+<sc32_desc>32: Pilot teaches S. to fight</sc32_desc>
+# sc32 [label="32: Pilot teaches S. to fight", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc32
+	c_pilot -> sc32
+	p_forgottenCastle -> sc32
+	sc32 -> t39
+# /	
+
+<sc33_desc>33: Pilot gets sick before\nplanned journey to Nibelungia</sc33_desc>
+# sc33 [label="33: Pilot gets sick before\nplanned journey to Nibelungia", shape="box", fillcolor="palegoldenrod", style="filled"]
+	sc33_note [label="Find an interesting way\nto make him sick/unable to\ngo with Siegfried", shape="note"]
+	sc33_note -> sc33
+	c_pilot -> sc33
+	p_forgottenCastle -> sc33
+	sc33 -> t40
+# /	
+
+<sc34_desc>34: S. starts journey to\nNibelungia with the jet dragon</sc34_desc>
+# sc34 [label="34: S. starts journey to\nNibelungia with the jet dragon", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	c_siegfried -> sc34
+	c_jetDragon -> sc34
+	p_forgottenCastle -> sc34
+	sc34 -> t41
+# /	
+
+<sc35_desc>35: S. meets Gernot and gives\nhim a copy of the poem</sc35_desc>
+# sc35 [label="35: S. meets Gernot and gives\nhim a copy of the poem", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	c_gernot -> sc35
+	c_siegfried -> sc35
+	p_academy -> sc35
+	sc35 -> t42
+# /	
+
+<sc36_desc>36: S. gets arrested</sc36_desc>
+# sc36 [label="36: S. gets arrested", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	c_siegfried -> sc36
+	cg_cleanlandsSoldiers3 -> sc36
+	p_academy -> sc36
+	sc36 -> t43
+# /	
+
+# sc37 [label="37: Talk between S. and Egregorius", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_egregorius -> sc37
+	c_siegfried -> sc37
+	p_nibelungianGovtBuilding -> sc37
+	sc37 -> t44
+# /	
+
+# sc38 [label="38: S. gets at the scaffold", shape="box", fillcolor="palegoldenrod", style="filled"]	
+	c_siegfried -> sc38
+	c_deathman -> sc38
+	p_centralSquare -> sc38
+	sc38 -> t45
+# /	
+
+# sc39 [label="39: While E. is at S's execution,\nE's rival and Gernot put\nthe poem on the simulacri broadcast", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_egregoriusRival -> sc39
+	c_gernot -> sc39
+	p_simulacrumControlCenter -> sc39
+	sc39 -> t46
+# /	
+
+# sc40 [label="40: In the last moment, the crowd\nsaves S. from execution and\nkills E. by rolling a giant Simulacrum", shape="box", fillcolor="palegoldenrod", style="filled"]
+	cg_nibelungCrowd -> sc40
+	c_siegfried -> sc40
+	c_egregorius -> sc40
+	p_centralSquare -> sc40
+	sc40 -> t47
+# /	
+
+# sc41 [label="41: V. gets nervous about S.'s\nabsence and starts journey\nto N.'s capital city with the pilot", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_valkyrie -> sc41
+	c_pilot -> sc41
+	p_forgottenCastle -> sc41
+	sc41 -> t48
+# /	
+
+# sc42 [label="42: V. arrives in N.'s capital city", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_valkyrie -> sc42
+	c_pilot -> sc42
+	p_centralSquare -> sc42
+	sc42 -> t49
+# /	
+
+# sc43 [label="43: V. sees S. surrounded\nby many young women", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_valkyrie -> sc43
+	p_nibelungianGovtBuilding -> sc43
+	sc43 -> t50
+# /	
+
+# sc44 [label="44: S. approaches V., V. faints", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc44
+	c_valkyrie -> sc44
+	p_nibelungianGovtBuilding -> sc44
+	sc44 -> t51
+# /	
+
+# sc45 [label="45: V. wakes up at the forgotten castle,\nlearns she is pregnant, S. looks\ninto ростки of bright future through\nподзорная труба", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc45
+	c_valkyrie -> sc45
+	p_forgottenCastle -> sc45
+	sc45 -> t52
+# /	
+
+<sc96f_desc>
+# Siegfried receives degree as a poet, goes to Cleanlands for an internship
+</sc96f_desc>
+	sc96f [label="Siegfried receives degree as a poet,\ngoes to Cleanlands for an internship", shape="box", fillcolor="palegoldenrod", style="filled"]
+	c_siegfried -> sc96f
+	c_gernot -> sc96f
+	c_dean -> sc96f
+	p_academy -> sc96f
+	sc96f -> t7
+# /
+
+<sc97f_desc>
+# Siegfried sees, how people live in Cleanlands
+</sc97f_desc>
+	sc97f [label="Siegfried sees, how people live in Cleanlands"]
+	c_siegfried -> sc97f
+	p_cleanlandsCapital -> sc97f
+	sc97f -> t101
+# /
+
+<sc98f_desc>
+# Siegfried gets involved in an intellectual debate with high-end Cleanlands 
+# students in a cafè, while learning about the change in Nibelungia
+</sc98f_desc>
+	sc98f [label="Siegfried gets involved in an intellectual debate"]
+	c_siegfried -> sc98f
+	cg_cleanlandsStudents -> sc98f
+	p_cleanlandsCafe -> sc98f
+	sc98f -> t84
+# /
+
+<sc95f_desc>
+# Valkyrie is in a hut of a witch, who puts a protective ring on her, 
+# which protects her from the danger and – as a side effect – makes it 
+# harder for her to fall in love. They watch the news from 
+# Nibelungia's capital city together, then Valkyrie decides, she is safe to go now.
+</sc95f_desc>
+	sc95f [label="Valkyrie is in a hut of a witch"]
+	c_valkyrie -> sc95f
+	c_witch -> sc95f
+	p_withHut -> sc95f
+	sc95f -> t84
+# /
+
+<sc99f_desc>
+# Siegfried's internship is over, he starts journey to Nibelungia
+</sc99f_desc>
+	sc99f [label="Siegfried's internship is over,\nhe starts journey to Nibelungia"]
+	c_siegfried -> sc99f
+	p_cleanlandsCapital -> sc99f
+	sc99f -> t102
+# /
+
+<sc100f_desc>
+# Valkyrie's sufferings on the road to Cleanlands and in Cleanlands. Accession to the flying island.
+</sc100f_desc>
+	sc100f  [label="Valkyrie's sufferings on the road to\nCleanlands and in Cleanlands.\nAccession to the flying island."]
+	c_valkyrie -> t103
+# /
+
+<sc101f_desc>
+# Flashback to scene 38, the reader restores the context here
+</sc101f_desc>
+	sc101f [label="Flashback to scene 38, the reader restores the context here"]
+	c_siegfried -> sc101f
+# /
+
+<sc91f_desc>
+# Birth of Egregorius (show, what relationships look like at the mages)
+</sc91f_desc>
+	sc91f [label="Birth of Egregorius (show, what relationships look like at the mages)"]
+	sc91f -> t3
+# /
+}

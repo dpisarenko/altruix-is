@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="LOGFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>log/Altruix_IS_1.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>log/Altruix_IS_1-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>30</maxHistory>
+		</rollingPolicy>
+		<encoder immediateFlush="true">
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS, UTC} UTC %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<appender name="PROTOCOL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>protocol/current-protocol.txt</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>protocol/t%d{yyyyMMdd}s.md</fileNamePattern>
+			<maxHistory>365</maxHistory>
+		</rollingPolicy>
+		<encoder immediateFlush="true">
+			<charset>UTF-8</charset> 
+			<pattern>%msg</pattern>
+		</encoder>
+	</appender>
+	<logger name="cc.altruix.is1" level="TRACE">
+		<appender-ref ref="LOGFILE" />
+	</logger>
+	<logger name="protocol" level="INFO">
+		<appender-ref ref="PROTOCOL" />
+	</logger>
+</configuration>
